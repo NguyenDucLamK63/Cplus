@@ -6,7 +6,7 @@ using namespace cv;
 using namespace std;
 
 int main( int argc, char** argv ){
-    VideoCapture cap("/home/maicg/Documents/test-face-recognition/data_video/sang/11_01_2023/cam1.avi"); //capture the video from web cam
+    VideoCapture cap("/home/duclam/Lam/fall_detection/Human-Falling-Detect-Tracks_2/Fall_1_persion_1_qt.mp4"); //capture the video from web cam
 
     if ( !cap.isOpened() )  // if not success, exit program
     {

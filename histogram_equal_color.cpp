@@ -10,7 +10,7 @@ using namespace std;
 int main(int argc, char** argv)
 {
     // Read the image file
-    Mat image = imread("/home/maicg/Documents/cplus/image_pair.png");
+    Mat image = imread("/home/duclam/Documents/dataset_action/581/rgb/rgb_0003.png");
 
     // Check for failure
     if (image.empty())

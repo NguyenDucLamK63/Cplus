@@ -7,7 +7,7 @@ using namespace std;
 
  int main( int argc, char** argv )
  {
-    VideoCapture cap("/home/maicg/Documents/face-recognition-demo/videos/2_Obama.mp4");
+    VideoCapture cap("/home/duclam/Lam/fall_detection/Human-Falling-Detect-Tracks_2/Fall_1_persion_1_qt.mp4");
 
     if ( !cap.isOpened() )  // if not success, exit program
     {
